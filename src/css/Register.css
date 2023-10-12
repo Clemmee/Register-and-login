@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid dodgerblue;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(16, 204, 167, 0.514);
+}
+
+label {
+    margin-left: -36rem;
+    padding: 5px;
+    align-items: flex-start;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    color: red;
+    font-weight: 900;
+}
+
+.g button {
+    margin: 0 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: blue;
+    background: transparent;
+    border-color: aliceblue;
+    color: black;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    color: purple;
+}
